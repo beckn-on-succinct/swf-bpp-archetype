@@ -54,9 +54,10 @@
     <fileSet filtered="true" encoding="UTF-8">
       <directory></directory>
       <includes>
-        <include>.classpath</include>
-        <include>.project</include>
-        <include>.gitignore</include>
+        <include>**/.classpath</include>
+        <include>**/.project</include>
+        <include>**/gitignore.sample</include>
+        <include>**/Procfile.txt</include>
       </includes>
     </fileSet>
   </fileSets>
