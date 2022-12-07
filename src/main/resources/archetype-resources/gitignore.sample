@@ -1,0 +1,9 @@
+/target/
+/.settings/
+/overrideProperties/
+/tmp/
+nohup.out
+.idea/
+.classpath
+.project
+database/
