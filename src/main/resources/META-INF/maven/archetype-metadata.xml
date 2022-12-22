@@ -57,7 +57,6 @@
         <include>**/.classpath</include>
         <include>**/.project</include>
         <include>**/gitignore.sample</include>
-        <include>**/Procfile.txt</include>
       </includes>
     </fileSet>
   </fileSets>
