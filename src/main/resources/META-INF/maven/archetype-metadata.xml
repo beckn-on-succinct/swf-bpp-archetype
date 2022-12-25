@@ -68,7 +68,7 @@
       <defaultValue>${groupId}.${artifactId}</defaultValue>
     </requiredProperty>
     <requiredProperty key="adaptor">
-      <defaultValue>bpp.woocommerce</defaultValue>
+      <defaultValue>woocommerce</defaultValue>
     </requiredProperty>
   </requiredProperties>
 </archetype-descriptor>
