@@ -61,9 +61,14 @@
     </fileSet>
   </fileSets>
   <requiredProperties>
+    <!--
     <requiredProperty key="archetypeVersion"/>
+    -->
     <requiredProperty key="package">
       <defaultValue>${groupId}.${artifactId}</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="adaptor">
+      <defaultValue>bpp.woocommerce</defaultValue>
     </requiredProperty>
   </requiredProperties>
 </archetype-descriptor>
