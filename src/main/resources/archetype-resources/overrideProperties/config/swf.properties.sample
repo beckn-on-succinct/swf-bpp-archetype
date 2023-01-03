@@ -60,7 +60,7 @@ in.succinct.bpp.shell.registry.auto.register=true
 in.succinct.bpp.shell.country.iso.3=IND
 in.succinct.bpp.shell.country.iso.2=IN
 in.succinct.bpp.shell.adaptor=${adaptor}
-#in.succinct.bpp.shell.subscriber_id=your_subscriber_id
+#in.succinct.bpp.shell.subscriber.id=your_subscriber_id
 
 #in.succinct.bpp.${adaptor}.storeUrl=https://store_fqdomain/index.php/wp-json/wc/v3
 #in.succinct.bpp.${adaptor}.clientId=
