@@ -48,7 +48,7 @@ swf.jdbc.set.dbschema.command=set schema public
 #geocoder.here.app_key=
 
 ## For encryption support
-#swf.encryption.support=true
+swf.encryption.support=false
 #swf.key.store.directory=./.keystore
 #swf.key.store.password=mypassword
 #swf.key.entry.succinct.password=myentrypassword
