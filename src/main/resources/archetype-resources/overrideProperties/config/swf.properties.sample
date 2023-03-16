@@ -54,18 +54,56 @@ swf.encryption.support=false
 #swf.key.entry.succinct.password=myentrypassword
 
 
-in.succinct.bpp.shell.registry.url=https://registry.becknprotocol.io/subscribers
-in.succinct.bpp.shell.registry.id=registry.becknprotocol.io..LREG
-in.succinct.bpp.shell.registry.auto.register=true
 in.succinct.bpp.shell.country.iso.3=IND
 in.succinct.bpp.shell.country.iso.2=IN
 in.succinct.bpp.shell.adaptor=${adaptor}
-#in.succinct.bpp.shell.subscriber.id=your_subscriber_id
 
-#in.succinct.bpp.${adaptor}.storeUrl=https://store_fqdomain/index.php/wp-json/wc/v3
-#in.succinct.bpp.${adaptor}.clientId=
-#in.succinct.bpp.${adaptor}.secret=
-#in.succinct.bpp.${adaptor}.city=std:080
-#in.succinct.bpp.${adaptor}.hmac.key=some_secret_phrase
+
+in.succinct.bpp.shell.subscriber.id=your_subscriber_id
+in.succinct.bpp.shell.subscriber.key.id=your_subscriber_id.k1
+
+in.succinct.bpp.shell.network.name=beckn_open
+in.succinct.bpp.shell.registry.wild.card.character=
+
+#in.succinct.bpp.shell.network.name=ondc
+#in.succinct.bpp.shell.registry.wild.card.character=*
+
+
+#in.succinct.bpp.woocommerce.storeUrl=https://store_fqdomain/index.php/wp-json/wc/v3
+#in.succinct.bpp.woocommerce.clientId=
+#in.succinct.bpp.woocommerce.secret=
+#in.succinct.bpp.woocommerce.city=std:080
+#in.succinct.bpp.woocommerce.hmac.key=some_secret_phrase
+
+#in.succinct.bpp.shopify.storeUrl=https://your_store_name.myshopify.com
+#in.succinct.bpp.shopify.hmac.key=
+#in.succinct.bpp.shopify.clientId=
+#in.succinct.bpp.shopify.secret=
+#in.succinct.bpp.shopify.accessToken=
+#in.succinct.bpp.shopify.city=std:080
+#in.succinct.bpp.shopify.provider.config={\
+#    "store_name" :"",\
+#    "owner_email" :"",\
+#    "category" : {"id":"" , "descriptor" : { "name" : ""}},\
+#    "vpa" : "",\
+#    "turn_around_time" : "P2D",\
+#    "fulfillment_turn_around_time" : "P2D",\
+#    "return_supported" : false,\
+#   "return_pickup_supported" : false,\
+#   "return_window" : "P0D",\
+#   "cod_supported" : false,\
+#   "contact" : {"email" :"", "phone" : "+911234567890" },\
+#   "max_allowed_commission_percent" : "4",\
+#   "delivery_rules" : [{"max_distance":"10000" , "fixed_rate":"60"  }],\
+#   "store_pickup_supported" : false,\
+#   "home_delivery_supported" : true,\
+#   "gst_in" :"", \
+#   "logo": "",\
+#   "time" :{"label": "Working" , "schedule": { "frequency":"PT8H" ,"times" : [ "0900" ] } , "days" : "0,1,2,3,4,5,6"},\
+#    "fulfillment_provider_name" : "",\
+#    "fulfillment_category" : "Standard Delivery",\
+#    "max_order_quantity" : 50 \
+#}
+
 
 beckn.auth.enabled=true
