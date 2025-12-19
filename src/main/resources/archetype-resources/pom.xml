@@ -59,18 +59,13 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>LATEST</version>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>in.succinct</groupId>
-            <artifactId>bpp.shell</artifactId>
-            <version>[1.0-SNAPSHOT,)</version>
-        </dependency>
-        <dependency>
-            <groupId>in.succinct</groupId>
-            <artifactId>bpp.search</artifactId>
-            <version>[1.0-SNAPSHOT,)</version>
+            <artifactId>onet.boc</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>in.succinct</groupId>
@@ -78,15 +73,31 @@
             <version>[1.0-SNAPSHOT,)</version>
         </dependency>
         <dependency>
-          <groupId>com.github.venkatramanm.swf-all</groupId>
-          <artifactId>swf-plugin-bootstrap</artifactId>
-          <version>1.0</version>
+          <groupId>in.succinct</groupId>
+          <artifactId>swf-plugin-tailwind</artifactId>
+          <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
           <groupId>com.h2database</groupId>
           <artifactId>h2</artifactId>
-          <version>2.1.210</version>
+          <version>2.2.224</version>
         </dependency>
+        <dependency>
+            <groupId>in.succinct</groupId>
+            <artifactId>bpp.shell</artifactId>
+            <version>[1.0-SNAPSHOT,)</version>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.3.9</version>
+        </dependency>
+        <dependency>
+            <groupId>in.succinct</groupId>
+            <artifactId>bpp.search</artifactId>
+            <version>[1.0-SNAPSHOT,)</version>
+        </dependency>
+
         <!--
         <dependency>
           <groupId>com.h2database</groupId>

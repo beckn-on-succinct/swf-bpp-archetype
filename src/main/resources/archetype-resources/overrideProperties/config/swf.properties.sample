@@ -1,17 +1,18 @@
 swf.load.complete.config.tables.if.count.less.than=500
 swf.user.password.encrypted=true
-swf.plugins.background.core.workers.numThreads=2
-swf.application.authentication.required=false
 #swf.application.requires.registration=true
 
 
 
-swf.host=localhost
+swf.application.authentication.required=false
+swf.application.requires.registration=true
+swf.ftl.dir=src/main/resources/templates
+swf.host=${adaptor}.humbhionline.in
 
 #Point to your public url 
 #swf.host=your_fully_qualified_domain
-#swf.external.port=443
-#swf.external.scheme=https
+swf.external.port=443
+swf.external.scheme=https
 
 swf.jdbc.driver=org.h2.Driver
 swf.jdbc.url=jdbc:h2:./database/${artifactId};AUTO_SERVER=TRUE;NON_KEYWORDS=VALUE;
@@ -23,87 +24,23 @@ swf.jdbc.dbschema.setonconnection=true
 swf.jdbc.set.dbschema.command=set schema public
 
 
-# These keys are needed if you want to use push notifications. 
-# you can generate this from https://d3v.one/vapid-key-generator/ or similiar sites. 
-# you also need to specify the public key in src/main/resources/scripts/application.js
+swf.HUMBOL.client.id=${adaptor}.humbhionline.in
+swf.HUMBOL.client.secret=venky12
+swf.HUMBOL.base.url=https://id.humbhionline.in
+swf.HUMBOL.resource.url=https://id.humbhionline.in/users/current
 
-#push.server.private.key=your_private_key
-#push.server.public.key=your_public_key 
-
-## For single signon  with social logins.
-## Register application with the social site and fill in the id and secret generated there for login purposes.
-#swf.GOOGLE.client.id=
-#swf.GOOGLE.client.secret=
-
-#swf.LINKEDIN.client.id=
-#swf.LINKEDIN.client.secret=
-
-#swf.FACEBOOK.client.id=
-#swf.FACEBOOK.client.secret=
-
-
-
-# If you need Geo encoding
-#geocoder.google.api_key=
-#geocoder.here.app_key=
-
-## For encryption support
 swf.encryption.support=false
 #swf.key.store.directory=./.keystore
 #swf.key.store.password=mypassword
 #swf.key.entry.succinct.password=myentrypassword
 
 
-in.succinct.bpp.shell.country.iso.3=IND
-in.succinct.bpp.shell.country.iso.2=IN
-in.succinct.bpp.shell.adaptor=${adaptor}
-
-
-in.succinct.bpp.shell.subscriber.id=your_subscriber_id
-in.succinct.bpp.shell.subscriber.key.id=your_subscriber_id.k1
-
-in.succinct.bpp.shell.network.name=beckn_open
-in.succinct.bpp.shell.registry.wild.card.character=
-
-#in.succinct.bpp.shell.network.name=ondc
-#in.succinct.bpp.shell.registry.wild.card.character=*
-
-
-#in.succinct.bpp.woocommerce.storeUrl=https://store_fqdomain/index.php/wp-json/wc/v3
-#in.succinct.bpp.woocommerce.clientId=
-#in.succinct.bpp.woocommerce.secret=
-#in.succinct.bpp.woocommerce.city=std:080
-#in.succinct.bpp.woocommerce.hmac.key=some_secret_phrase
-
-#in.succinct.bpp.shopify.storeUrl=https://your_store_name.myshopify.com
-#in.succinct.bpp.shopify.hmac.key=
-#in.succinct.bpp.shopify.clientId=
-#in.succinct.bpp.shopify.secret=
-#in.succinct.bpp.shopify.accessToken=
-#in.succinct.bpp.shopify.city=std:080
-#in.succinct.bpp.shopify.provider.config={\
-#    "store_name" :"",\
-#    "owner_email" :"",\
-#    "category" : {"id":"" , "descriptor" : { "name" : ""}},\
-#    "vpa" : "",\
-#    "turn_around_time" : "P2D",\
-#    "fulfillment_turn_around_time" : "P2D",\
-#    "return_supported" : false,\
-#   "return_pickup_supported" : false,\
-#   "return_window" : "P0D",\
-#   "cod_supported" : false,\
-#   "contact" : {"email" :"", "phone" : "+911234567890" },\
-#   "max_allowed_commission_percent" : "4",\
-#   "delivery_rules" : [{"max_distance":"10000" , "fixed_rate":"60"  }],\
-#   "store_pickup_supported" : false,\
-#   "home_delivery_supported" : true,\
-#   "gst_in" :"", \
-#   "logo": "",\
-#   "time" :{"label": "Working" , "schedule": { "frequency":"PT8H" ,"times" : [ "0900" ] } , "days" : "0,1,2,3,4,5,6"},\
-#    "fulfillment_provider_name" : "",\
-#    "fulfillment_category" : "Standard Delivery",\
-#    "max_order_quantity" : 50 \
-#}
-
 
 beckn.auth.enabled=true
+in.succinct.onet.name=hbo
+in.succinct.onet.hbo.lookup.cache.expiry.minutes=5
+
+
+
+
+
