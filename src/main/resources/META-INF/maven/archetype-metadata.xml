@@ -64,11 +64,13 @@
     <!--
     <requiredProperty key="archetypeVersion"/>
     -->
+    <requiredProperty key="adaptor">
+    </requiredProperty>
+    <requiredProperty key="artifactId">
+      <defaultValue>app.${adaptor}</defaultValue>
+    </requiredProperty>
     <requiredProperty key="package">
       <defaultValue>${groupId}.${artifactId}</defaultValue>
-    </requiredProperty>
-    <requiredProperty key="adaptor">
-      <defaultValue>woocommerce</defaultValue>
     </requiredProperty>
   </requiredProperties>
 </archetype-descriptor>
